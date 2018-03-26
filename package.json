@@ -1,0 +1,13 @@
+{
+    "name":"dockerTypescript",
+    "version":"1.0.0",
+    "devDependencies":{
+        "typescript":"latest",
+        "ts-node":"latest"
+    },
+    "scripts":{
+        "compile": "tsc ./app.ts",
+        "startNode": "node ./app.js",
+        "start":"ts-node ./app.ts"
+    }
+}
