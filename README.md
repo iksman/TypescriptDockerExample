@@ -1,5 +1,5 @@
 # TypescriptDockerExample
-A tiny example of Typescript running inside a docker container
+A tiny example of Typescript code generating a fibonacci sequence running inside a docker container
 ***
 ### Prerequisites
 * Docker

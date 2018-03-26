@@ -2,7 +2,7 @@ interface numberSequence{
     getSequence() : number[];
 }
 
-class pythagoras implements numberSequence{
+class fibonacci implements numberSequence{
     sequence: number[];
     constructor(max:number){
         var previous = 0;
@@ -22,4 +22,4 @@ class pythagoras implements numberSequence{
     }
 }
 
-console.log(new pythagoras(20).getSequence())
+console.log(new fibonaci(20).getSequence())
