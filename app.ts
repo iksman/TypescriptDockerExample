@@ -5,12 +5,12 @@ interface numberSequence{
 class fibonacci implements numberSequence{
     sequence: number[];
     constructor(max:number){
-        var previous = 0;
-        var current = 1;
-        var result = [previous, current];
+        let previous: number = 0;
+        let current: number = 1;
+        let result: number[] = [previous, current];
         for (var i = 0; i < max; i++){
             result.push(previous + current);
-            var intermediate = previous + current;
+            let intermediate: number = previous + current;
             previous = current;
             current = intermediate;
         }
@@ -22,4 +22,6 @@ class fibonacci implements numberSequence{
     }
 }
 
-console.log(new fibonacci(20).getSequence())
+let sequence: numberSequence = new fibonacci(20);
+
+console.log(sequence.getSequence())
