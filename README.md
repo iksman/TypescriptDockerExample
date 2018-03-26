@@ -6,7 +6,7 @@ A tiny example of Typescript code generating a fibonacci sequence running inside
 * Internet Connection
 
 ***
-To start the program, make sure docker daemon is running. Afterwards execute the following commands:
+To start the program, clone this repository and make sure docker daemon is running. Afterwards execute the following commands:
 
 `docker build . -t tsapp`
 
