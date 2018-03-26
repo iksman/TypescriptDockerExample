@@ -22,4 +22,4 @@ class fibonacci implements numberSequence{
     }
 }
 
-console.log(new fibonaci(20).getSequence())
+console.log(new fibonacci(20).getSequence())
