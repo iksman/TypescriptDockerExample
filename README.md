@@ -8,7 +8,7 @@ A tiny example of Typescript code generating a fibonacci sequence running inside
 ***
 To start the program, make sure docker daemon is running. Afterwards execute the following commands:
 
-`docker build . -t tsApp`
+`docker build . -t tsapp`
 
-`docker run tsApp`
+`docker run tsapp`
 
